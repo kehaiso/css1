@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: lightsteelblue;
+margin: 0;
+}
+
+.nez {
+padding-top: 0;
+right: 0px; 
+top: 0;
+position: absolute;
+font-size: 0;
+}
+
+li {
+display: inline-block;
+}
+
+.li1 {
+background-color: orangered;
+}
+
+.li2 {
+background-color: powderblue;
+}
+
+.li3 {
+background-color: olivedrab;
+}
+
+.li4 {
+background-color: yellow;
+}
+
+li a {
+font-size: 20px;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: rgb(128, 123, 123);
+}
+
+div {
+display: table;
+margin: 0 auto;
+margin-top: 100px;
+}
+
+.zin { 
+display: inline-block;
+border-style: solid;
+border-color: grey;
+border-width: 2px;
+background-color: white;
+margin: 20px;
+padding: 40px;
+}
+.op2, p, .op2 {
+text-align: center;
+}
+
+.op1 {
+color: royalblue;
+}
+
+.op2 {
+color: orange;
+}
+
+button {
+margin: 30px;
+display: table;
+margin: 0 auto;
+}
+
+.ch1 {
+background-color: royalblue;
+}
+
+.ch2 {
+background-color: orange;
+}
+
+.ch1, .ch2 {
+padding: 10px;
+border-color:white;
+color:white;
+border-radius: 8px;
+}
+
+p, h1, .ch1, .ch2 {
+margin-bottom: 15px;
+}

@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+font-size: 0;
+}
+
+div.img{
+background: url(hills.png) no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 50%;
+height: 100vh;
+}
+
+.content, .img {
+display: inline-block;
+}
+
+.content {
+width: 40%; 
+vertical-align: top;
+min-width:430px;
+margin: 50px 0 0 20px;
+}
+
+p {
+color: grey;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.in {
+vertical-align: middle;
+}
+
+input[type=text],
+input[type=number],
+input[type=submit]{
+width: 90%;
+margin: 20px 0;
+display: inline-block;
+border-radius: 4px;
+}
+
+input[type=text], input[type=number] {
+padding: 12px 20px;
+border: 1px solid #ccc;
+}
+  
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+border: none;
+cursor: pointer;
+}
+  
+input[type=submit]:hover {
+background-color: #061607;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
